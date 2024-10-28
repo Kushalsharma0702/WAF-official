@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAF Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-bottom: 3px solid #00ff00;
+        }
+        h1 {
+            margin: 0;
+            color: #00ff00;
+            font-size: 2.5em;
+        }
+        .banner {
+            background-color: #00ff00;
+            color: black;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 10px 0;
+            box-shadow: 0 4px 20px rgba(0, 255, 0, 0.5);
+            animation: slide 10s linear infinite;
+        }
+        @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .rules-container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border: 1px solid #00ff00;
+            margin: 10px 0;
+            background-color: #2a2a2a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #00ff00;
+            border: none;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #009900;
+        }
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #00ff00;
+            background-color: #1a1a1a;
+            color: #c0c0c0;
+            width: 100%;
+            max-width: 200px; /* Limit width on larger screens */
+            border-radius: 4px;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #ccc;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .banner {
+                font-size: 0.9em; /* Adjust font size for smaller screens */
+            }
+            button {
+                width: 100%; /* Make buttons full width on small screens */
+            }
+            input[type="text"] {
+                max-width: 100%; /* Allow input to use full width */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WAF Admin Interface</h1>
+    </header>
+
+    <div class="banner">
+        <p>Sample Rules: SQL Injection: ".*' OR '1'='1.*" | XSS: "<script.*?>.*</script>" | Path Traversal: "\.\./" | Command Injection: ".*;.*"</p>
+    </div>
+
+    <div class="rules-container">
+        <h2>Current Rules</h2>
+        <ul>
+            {% for rule in rules %}
+                <li>{{ rule.pattern }}
+                    <form action="{{ url_for('delete_rule', rule_id=rule.id) }}" method="POST" style="display:inline;">
+                        <button type="submit"><i class="fas fa-trash"></i> Delete</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <h2>Add New Rule</h2>
+        <form method="POST">
+            <input type="text" name="new_rule" placeholder="Enter new rule" required>
+            <button type="submit"><i class="fas fa-plus"></i> Add Rule</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kushal All rights reserved.</p>
+    </footer>
+</body>
+</html>

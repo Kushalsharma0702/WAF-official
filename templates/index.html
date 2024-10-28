@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Firewall (WAF)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-bottom: 3px solid #00ff00;
+        }
+        h1 {
+            margin: 0;
+            color: #00ff00;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+        .description, .how-it-works {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #00ff00;
+            border: none;
+            color: black;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+            font-size: 1em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #009900;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #ccc;
+        }
+        .rule-examples {
+            background-color: #2e2e2e;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .examples-header {
+            color: #00ff00;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .description, .how-it-works {
+                font-size: 1em;
+            }
+            .button {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the WAF!</h1>
+    </header>
+    
+    <div class="container">
+        <p class="description">
+            Protect your web applications from attacks with our powerful Web Application Firewall (WAF). Easily manage security rules through the admin panel and keep your applications safe.
+        </p>
+        
+        <div class="how-it-works">
+            <h2>How It Works</h2>
+            <p>
+                Our WAF monitors incoming traffic to your application. It checks requests against a set of rules to determine if they should be allowed or blocked. This proactive approach helps you defend against common web attacks.
+            </p>
+        </div>
+        
+        <div class="rule-examples">
+            <div class="examples-header">Example Rules:</div>
+            <ul>
+                <li>Block SQL Injection: <code>.*(['"=;])</code></li>
+                <li>Prevent XSS: <code>.*(<script>|</script>)</code></li>
+                <li>Restrict User Agents: <code>.*(curl|wget)</code></li>
+            </ul>
+        </div>
+
+        <a href="{{ url_for('admin') }}" class="button"><i class="fas fa-cogs"></i> Go to Admin Panel</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kushal All rights reserved.</p>
+    </footer>
+</body>
+</html>

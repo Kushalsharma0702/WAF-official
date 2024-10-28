@@ -1,0 +1,194 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 169-621-304
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:05:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:08:15] "GET /?query=SELECT%20*%20FROM%20users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\rules.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 169-621-304
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:09:20] "[33mGET /r'(?i)union.*select' HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:10:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:10:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:10:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:10:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 169-621-304
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:10:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:10:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 169-621-304
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:14:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:14:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:14:27] "[33mGET /admin.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:14:36] "[33mGET /templates/admin.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:16:33] "[33mGET /templates/admin.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:24:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:25:04] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:25:08] "[35m[1mPOST /admin HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:25:08] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:25:08] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:25:08] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=XAXrM5CQjfPx4UZ55BjY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:25:08] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:26:10] "[35m[1mPOST /admin HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:26:10] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:26:10] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:26:10] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png&s=XAXrM5CQjfPx4UZ55BjY HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:26:10] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:27:04] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:27:31] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:30:15] "[33mPOST /some_endpoint HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:38:30] "[33mPOST /some_endpoint HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:38:50] "[33mPOST /some_endpoint HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:40:05] "POST /some_endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:40:18] "POST /some_endpoint HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:40:55] "POST /test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:41:42] "POST /some_endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:42:32] "POST /some_endpoint HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:43:31] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:43:36] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:43:45] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\rules.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:15] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:17] "[32mPOST /delete_rule/8 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:17] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:18] "[32mPOST /delete_rule/7 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:18] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:18] "[32mPOST /delete_rule/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:18] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:19] "[32mPOST /delete_rule/5 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:19] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:19] "[32mPOST /delete_rule/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:19] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:24] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:26] "[32mPOST /delete_rule/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:26] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:26] "[32mPOST /delete_rule/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:26] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:45:29] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\rules.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:22] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:24] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:26] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:30] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:33] "[32mPOST /delete_rule/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:33] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:47] "[32mPOST /delete_rule/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:47] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:47] "[32mPOST /delete_rule/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:47] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:48] "[32mPOST /delete_rule/5 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:48] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:48] "[32mPOST /delete_rule/7 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:48] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:46:52] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:47:59] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:48:08] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:48:22] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:48] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:56] "[32mPOST /delete_rule/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:56] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:56] "[32mPOST /delete_rule/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:56] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "[32mPOST /delete_rule/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "[32mPOST /delete_rule/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "[32mPOST /delete_rule/5 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "[32mPOST /delete_rule/6 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:57] "[32mPOST /delete_rule/7 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:49:58] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:50:57] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:05] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:08] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:11] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:14] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:17] "[32mPOST /delete_rule/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:17] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:18] "[32mPOST /delete_rule/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:18] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:19] "[32mPOST /delete_rule/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:19] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:20] "[32mPOST /delete_rule/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:51:20] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:52:18] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:52:19] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:52:20] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:52:20] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:52:20] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:52:21] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:06] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:18] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:23] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:25] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:27] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:30] "[32mPOST /delete_rule/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:30] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:31] "[32mPOST /delete_rule/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:31] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:31] "[32mPOST /delete_rule/4 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:31] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:32] "[32mPOST /delete_rule/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:53:32] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:54:07] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:54:12] "POST /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:54:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\waf_project\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 133-620-990
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:59:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 21:59:52] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:01:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:01:27] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:01:29] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:02:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:02:14] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:02:40] "[32mPOST /delete_rule/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:02:40] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:03:52] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Oct/2024 22:04:00] "GET / HTTP/1.1" 200 -
